@@ -1,4 +1,4 @@
-<img src="/images/minion_icon.png" align="right" width="180" />
+<img src="/images/minion_icon.png" align="right" width="160" />
 
 # Minion Translator App
 
