@@ -1,4 +1,5 @@
-<img src="/images/minion_icon.png" align="right" />
+<img src="/images/minion_icon.png" align="right" width="180" />
+
 # Minion Translator App
 --- 
 > Bello, ba tis translation app - Hello, this is Translation App
