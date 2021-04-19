@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+:root {
+    --primary-color: #FCCD04;
+    --secondary-color: #1F2937;
+}
+
 body {
     font-family: 'Fredoka One', cursive;
     margin: 0px;
@@ -7,10 +12,11 @@ body {
 
 h1 {
     text-align: center;
-    color: #1F2937;
-    background-color: #FCCD04;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 2rem 0rem 1rem 0rem;
     margin: 0%;
+    font-weight: lighter;
 }
 
 textarea {
@@ -22,6 +28,7 @@ textarea {
     width: 40vw;
     height: 10vh;
     padding: 1rem;
+    font-family: cursive;
 }
 
 #btn-translate {
@@ -31,9 +38,11 @@ textarea {
     border: 0rem;
     border-radius: 0.5rem;
     display: flex;
-    color: white;
-    background-color: #FCD34D;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
     width: 7rem;
+    font-weight: 700;
+    font-family: cursive;
 }
 
 #txt-output {
@@ -44,11 +53,14 @@ textarea {
     width: 40vw;
     height: 10vh;
     padding: 1rem;
+    background-color: white;
+    font-weight: lighter;
+    font-family: cursive;
 }
 
 .footer {
-    color: #1F2937;
-    background-color: #FCCD04;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 5vh;
     align-content: center;
     text-align: center;
@@ -57,9 +69,11 @@ textarea {
 .footer #footer-title {
     margin: 0rem auto 0rem auto;
     max-width: 600px;
+    font-weight: lighter;
 }
 
 .footer #footer-text {
     margin: 0rem auto 0rem auto;
     max-width: 600px;
+    font-weight: lighter;
 }
