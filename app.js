@@ -10,7 +10,7 @@ function generateUrl(txt) {
 function errorHandler(error) {
   console.log("Sorry for the inconvenience, an error occured " + error)
   //to notify the user that error occured
-  alert("sorry, server down :(")
+  alert("sorry, we can only translate 5 times in an hour :( \nCome back later !")
 }
 
 function sendSignal() {

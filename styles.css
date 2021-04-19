@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+/* #FCCD04 */
 :root {
-    --primary-color: #FCCD04;
-    --secondary-color: #1F2937;
+    --primary-color: #FDE047 ;
+    --secondary-color: rgb(0, 0, 0);
 }
 
 body {
@@ -10,11 +11,20 @@ body {
     margin: 0px;
 }
 
+.bg-img {
+    background-image: url("/images/minion-background.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 h1 {
     text-align: center;
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    padding: 2rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
     margin: 0%;
     font-weight: lighter;
 }
@@ -28,6 +38,7 @@ textarea {
     width: 40vw;
     height: 10vh;
     padding: 1rem;
+    font-size: medium;
     font-family: cursive;
 }
 
