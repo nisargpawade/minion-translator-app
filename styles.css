@@ -4,6 +4,7 @@
 :root {
     --primary-color: #FDE047 ;
     --secondary-color: rgb(0, 0, 0);
+    --tertiary-color: #b8a234;
 }
 
 body {
@@ -42,7 +43,11 @@ textarea {
     font-family: cursive;
 }
 
-#btn-translate {
+#btn-translate:hover {
+    background-color: var(--tertiary-color);
+}
+
+button {
     margin-left: auto;
     margin-right: auto;
     padding: 0.65rem 1rem 0.65rem 1.75rem;
