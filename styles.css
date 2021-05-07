@@ -10,9 +10,6 @@
 body {
     font-family: 'Fredoka One', cursive;
     margin: 0px;
-}
-
-.bg-img {
     background-image: url("/images/minion-background.jpg");
     background-color: #cccccc;
     background-position: center;
@@ -75,6 +72,10 @@ button {
 }
 
 .footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
     color: var(--secondary-color);
     background-color: var(--primary-color);
     padding: 5vh;
